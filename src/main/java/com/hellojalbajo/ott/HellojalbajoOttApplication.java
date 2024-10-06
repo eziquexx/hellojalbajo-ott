@@ -1,4 +1,4 @@
-package comhellojalbajo.ott;
+package com.hellojalbajo.ott;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
