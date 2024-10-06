@@ -1,4 +1,4 @@
-package comhellojalbajo.ott;
+package com.hellojalbajo.ott;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
