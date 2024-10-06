@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+<title>Hello Jalbajo - project1 - sample</title>
+</head>
+<body>
+<h1>Main(Home)</h1>
+<div class="btnGroup">
+  <ul>
+    <li><a th:href="@{/}">홈으로 이동</a></li>
+    <li><a th:href="@{/create}">data 생성</a></li>
+  </ul>
+</div>
+<nav>
+  <h2>장르(Genre)</h2>
+  <ul>
+    <li><a th:href="@{/comedy}">코메디</a></li>
+    <li><a th:href="@{/animation}">애니메이션</a></li>
+    <li><a href="#">액선</a></li>
+    <li><a href="#">공포</a></li>
+    <li><a href="#">로맨스</a></li>
+  </ul>
+</nav>
+</body>
+</html>

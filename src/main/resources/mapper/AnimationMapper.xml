@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hellojalbajo.ott.animation.AnimationMapper">
+	<select id="getAnimationById" resultType="com.hellojalbajo.ott.Genre">
+		SELECT * FROM ottdb_movie WHERE genre = 'animation' AND id = #{id}
+	</select>
+	<select id="getAnimationList" resultType="com.hellojalbajo.ott.Genre">
+		SELECT * FROM ottdb_movie WHERE genre = 'animation'
+	</select>
+</mapper>

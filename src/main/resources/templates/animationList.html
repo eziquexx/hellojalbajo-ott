@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"></link>
+<title>AnimationList</title>
+</head>
+<body>
+<h1>Animation List - 애니메이션 목록</h1>
+<div class="btnGroup">
+  <ul>
+    <li><a th:href="@{/}">홈으로 이동</a></li>
+    <li><a th:href="@{/create}">data 생성</a></li>
+  </ul>
+</div>
+<div id="loading_id" class="loading">loading... 로딩중...</div>
+<div id="error_id" class="error">fetching 과정에서 오류 발생.</div>
+<table id="animationList_id" class="list_table"></table>
+
+
+<!-- animationAPI -->
+<script th:src="@{/js/animationAPI.js}"></script>
+</body>
+</html>
