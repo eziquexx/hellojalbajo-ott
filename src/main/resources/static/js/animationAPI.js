@@ -3,8 +3,8 @@
  */
 
 function animationAPI() {
-	const loading = document.getElementById("loading_id");
-	const error = document.getElementById("error_id");
+	const loading = document.getElementById("loading_id2");
+	const error = document.getElementById("error_id2");
 	const animationList = document.getElementById("animationList_id");
 	
 	loading.style.display = "block";

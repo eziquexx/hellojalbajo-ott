@@ -24,5 +24,22 @@
     <li><a href="#">로맨스</a></li>
   </ul>
 </nav>
+
+<div class="mainContainer">
+	<div class="genresGroup">
+		<div id="loading_id" class="loading">loading... 로딩중...</div>
+		<div id="error_id" class="error">fetching 과정에서 오류 발생.</div>
+		<table id="comedyList_id" class="list_table"></table>
+	</div>
+	<div class="genresGroup">
+		<div id="loading_id2" class="loading">loading... 로딩중...</div>
+		<div id="error_id2" class="error">fetching 과정에서 오류 발생.</div>
+		<table id="animationList_id" class="list_table"></table>
+	</div>
+</div>
+
+<!-- comedyAPI -->
+<script th:src="@{/js/comedyAPI.js}"></script>
+<script th:src="@{/js/animationAPI.js}"></script>
 </body>
 </html>
